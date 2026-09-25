@@ -1,0 +1,27 @@
+.navbar{
+    background-image: url(./media/5728284d-eb05-4b46-8222-57bfe31c92c3.jpg);
+}
+
+#Logo{
+    height: 120px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+}
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blanchedalmond;
+}
+main:hover{
+    background-color: rgb(244, 176, 204);
+}
+.titoli_2{
+    color: darkblue;
+}
+.article{
+    min-height: 150px;
+}
+.img{
+    height: 150px;
+}

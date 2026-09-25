@@ -4,49 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav>
-        <img src="./media/LogoFoodBlog.png" alt="Logo Food Blog">
-        <a href="./index2.html">Scopri le nostre ricette</a> 
-        <a href="">Crea la tua ricetta</a>
+    <nav class="navbar">
+        <img id="Logo" src="./media/LogoCucina.webp" alt="Logo Food Blog">
+        <ul>
+             <a href="">
+                <li>Home</li>
+            </a>
+            <a href="./index2.html">
+                <li>Chi siamo</li>
+            </a> 
+        </ul>
     </nav>
 
     <main>
-        <h1>Food Blog Valsesia</h1>
+        <header>
+            <h1>Food Blog Valsesia</h1>
+        </header>
+        <section>
+            <article class="article">
+                <h2 class="titoli_2">La miaccia Valsesiana</h2>
+                <img class="img" src="./media/Miaccia-valsesiana-5.jpg" alt="Miaccia Valsesiana">
+                <p>Le miacce sono una tipica ricetta piemontese, in particolare della Valsesia. Super versatili, possono diventare salate o dolci a seconda della farcitura</p>
+                <a href="https://blog.giallozafferano.it/spuntidibonta/ricetta-miacce-farcite-con-speck-e-formaggio/" target="_blank">Scopri la ricetta</a>
+            </article>
+
+                <article class="article">
+                <h2 class="titoli_2">Polenta e Tapulon</h2>
+                <img class="img" src="./media/PolentaTapulon.jpg" alt="Polenta e Tapulon">
+                <p>Pochi piatti hanno un così forte valore identitario e affettivo, e non solo per le regioni del nord, ma per la gente di montagna di tutta Italia, che la polenta, povera ma buona e sostanziosa, ha sfamato per secoli con grande dignità.</p>
+                <a href="https://ricette.giallozafferano.it/Polenta.html" target="_blank">Scopri la ricetta</a>
+            </article>
+
+                <article class="article">
+                <h2 class="titoli_2">Paniscia Piemontese</h2>
+                <img class="img" src="./media/paniscia_piemontese.webp" alt="Paniscia Piemontese">
+                <p>La paniscia Piemontese è una ricetta che affonda le sue radici nel passato, quando i nostri nonni utilizzavano gli ingredienti poveri a disposizione per rifocillarsi con un pasto caldo e nutriente.</p>
+                <a href="https://ricette.giallozafferano.it/Paniscia-alla-novarese.html" target="_blank">Scopri la ricetta</a>
+            </article>
+        </section>
     </main>
-    <section>
-        <article>
-            <h2>La miaccia Valsesiana</h2>
-            <img src="./media/miaccia_valsesiana.jpg" alt="Miaccia Valsesiana">
-            <p>Le miacce sono una tipica ricetta piemontese, in particolare della Valsesiana. Super versatili, possono diventare salate o dolci a seconda della farcitura</p>
-            <a href="https://blog.giallozafferano.it/spuntidibonta/ricetta-miacce-farcite-con-speck-e-formaggio/" target="_blank">Scopri la ricetta</a>
-        </article>
-
-         <article>
-            <h2>Polenta e Tapulon</h2>
-            <img src="./media/PolentaTapulon.jpg" alt="Polenta e Tapulon">
-            <p>Pochi piatti hanno un così forte valore identitario e affettivo, e non solo per le regioni del nord, ma per la gente di montagna di tutta Italia, che la polenta, povera ma buona e sostanziosa, ha sfamato per secoli con grande dignità.</p>
-            <a href="https://ricette.giallozafferano.it/Polenta.html" target="_blank">Scopri la ricetta</a>
-        </article>
-
-         <article>
-            <h2>Paniscia Piemontese</h2>
-            <img src="./media/paniscia_piemontese.webp" alt="Paniscia Piemontese">
-            <p>La paniscia Piemontese è una ricetta che affonda le sue radici nel passato, quando i nostri nonni utilizzavano gli ingredienti poveri a disposizione per rifocillarsi con un pasto caldo e nutriente.</p>
-            <a href="https://ricette.giallozafferano.it/Paniscia-alla-novarese.html" target="_blank">Scopri la ricetta</a>
-        </article>
-    </section>
     
     <footer>
-        <p>Ho creato una pagina html al cui interno ho messso:</p>
-        <ul>
-            <li>Una navbar con all'interno un logo e due link</li>
-            <li>Una sezione principale con il titolo</li>
-            <li>Una sezione contenente tre articoli</li>
-            <li>Un footer piè di pagina</li>
-        </ul>
+       <div>
+        <h3>Il mio Food Blog</h3>
+        <p>Ricette easy in pochi minuti</p>
+       </div>
+
+       <ul>
+           <a href=""><li>Chi siamo</li></a>
+           <a href=""><li>Servizi</li></a>
+           <a href=""><li>Contatti</li></a>
+       </ul>
+
+       <div>
+        <p>Email: info@miaazienda.it</p>
+        <p>Tel: +39 000 000 000</p>
+       </div>
     </footer>
 </body>
 </html>
