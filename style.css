@@ -1,27 +1,65 @@
-.navbar{
-    background-image: url(./media/5728284d-eb05-4b46-8222-57bfe31c92c3.jpg);
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.navbar{
+    height: 130px;
+    background-image: url(./media/5728284d-eb05-4b46-8222-57bfe31c92c3.jpg);
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+.scritte_nav{
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+    background-color:white;
+}
+.scritte_nav:hover{
+    border-bottom: 2px solid black;
+}
 #Logo{
     height: 120px;
 }
 h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    display: flex;
+    justify-content: center;
 }
-main{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: blanchedalmond;
+a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
 }
-main:hover{
-    background-color: rgb(244, 176, 204);
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+article{
+    background-color:lightgray;
+    width: 300px;
+    transition: 0.4s;
+}
+article:hover{
+    background-color:  rosybrown;
+}
+.article a:hover{
+    border-bottom: 2px solid black;
 }
 .titoli_2{
-    color: darkblue;
+    color: rgb(77, 76, 76);
 }
 .article{
     min-height: 150px;
 }
 .img{
-    height: 150px;
+    width: 300px;
+}
+footer{
+    background-color: lightgray;
+     display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
