@@ -1,20 +1,30 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
 }
 .navbar{
     height: 130px;
     background-image: url(./media/5728284d-eb05-4b46-8222-57bfe31c92c3.jpg);
     display: flex;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
 .navbar ul{
     display: flex;
     gap: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 .scritte_nav{
     color: red;
     font-size: larger;
     font-weight: bolder;
     background-color:white;
+    height: fit-content;
 }
 .scritte_nav:hover{
     border-bottom: 2px solid black;
@@ -27,6 +37,8 @@ h1{
     color: red;
     display: flex;
     justify-content: center;
+    margin: 20px;
+    margin-top: 150px;
 }
 a{
     color: black;
@@ -40,26 +52,65 @@ a{
 article{
     background-color:lightgray;
     width: 300px;
+    max-width: 90%;
+    min-height: fit-content;
     transition: 0.4s;
 }
 article:hover{
     background-color:  rosybrown;
+    cursor: pointer;
 }
 .article a:hover{
     border-bottom: 2px solid black;
 }
 .titoli_2{
     color: rgb(77, 76, 76);
+    margin: 10px;
+
 }
 .article{
     min-height: 150px;
+}
+.article p{
+    margin: 10px;
+}
+.article a{
+    margin: 10px;
 }
 .img{
     width: 300px;
 }
 footer{
     background-color: lightgray;
+    min-height: 100px;
      display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
+}
+.freccia_su{
+    position: fixed;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#top{
+    position: absolute;
+    top: 0;
+}
+.freccia_su:hover{
+    height: 60px;
+    transition: 0.4s;
+}
+@media screen and (max-widh:700px){
+   .section{
+    flex-direction: column;
+   }
+   footer{
+    flex-direction: column;
+    text-align: center;
+   }
 }
